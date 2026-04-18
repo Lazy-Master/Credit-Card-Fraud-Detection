@@ -19,7 +19,7 @@ DEFAULT_DATA_URL = (
 
 @dataclass
 class PreparedData:
-    """Container for train-test splits and preprocessing artifacts."""
+    """Container for train-test splits after preprocessing."""
 
     X_train: pd.DataFrame
     X_test: pd.DataFrame
@@ -27,7 +27,6 @@ class PreparedData:
     y_test: pd.Series
     X_train_resampled: pd.DataFrame
     y_train_resampled: pd.Series
-    scaler: RobustScaler
 
 
 def load_dataset(data_path: Optional[str] = None, url: str = DEFAULT_DATA_URL) -> pd.DataFrame:
@@ -79,5 +78,4 @@ def split_and_resample(
         y_test=y_test,
         X_train_resampled=X_train_resampled,
         y_train_resampled=y_train_resampled,
-        scaler=RobustScaler(),
     )
