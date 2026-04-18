@@ -82,14 +82,4 @@ By default, the training script can pull the dataset from the public URL used in
 - Random Forest feature importance is exported for interpretability
 - Trained models and summary CSV files are saved for reuse
 
-## Why This Repo Is Better Now
-- The analysis is no longer locked inside one notebook
-- The project is easier to explain in interviews and on GitHub
-- Training and prediction logic can be reused from scripts
-- Tests cover the main preprocessing and model registry behavior
 
-## Next Improvements
-- Add SHAP or LIME explanations
-- Add cross-validation and threshold tuning
-- Add a small Streamlit demo for fraud scoring
-- Add CI to run tests automatically
