@@ -164,20 +164,4 @@ Test set size: `56,962` transactions including `98` fraud cases.
 - Data loading and preprocessing helpers: `src/fraud_detection/data.py`
 - Model assembly utilities: `src/fraud_detection/modeling.py`
 
-## Citation
 
-If you want to cite this repository, reference the GitHub project and, when relevant, the accompanying project paper titled:
-
-`Credit Card Fraud Detection Using Advanced Machine Learning Techniques: A Comparative Study with Ensemble Methods and Deep Learning`
-
-Suggested GitHub citation fields:
-
-- Author: `Lazy-Master`
-- Title: `Credit-Card-Fraud-Detection`
-- Platform: GitHub
-- URL: `https://github.com/Lazy-Master/Credit-Card-Fraud-Detection`
-
-## Notes
-
-- The figure assets in `assets/paper-figures/` are recreated from the project paper for web readability.
-- The notebook in `notebooks/` is the latest updated version prepared for repository use.
